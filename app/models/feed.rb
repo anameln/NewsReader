@@ -4,13 +4,15 @@ class Feed < ActiveRecord::Base
   has_many :entries, :dependent => :destroy
   validates :title, :url, presence: true
 
-  def self.find_or_create_by_url(url)
-    feed = Feed.find_by_url(url)
+  belongs_to :user
+
+  def self.find_or_create_by_url_and_user_id(url, user_id)
+    feed = Feed.find_by(url: url, user_id: user_id)
     return feed if feed
 
     begin
       feed_data = SimpleRSS.parse(open(url))
-      feed = Feed.create!(title: feed_data.title, url: url)
+      feed = Feed.create!(title: feed_data.title, url: url, user_id: user_id)
       feed_data.entries.each do |entry_data|
         Entry.create_from_json!(entry_data, feed)
       end

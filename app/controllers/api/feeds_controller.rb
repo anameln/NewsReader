@@ -10,7 +10,7 @@ class Api::FeedsController < ApplicationController
   end
 
   def create
-    feed = Feed.find_or_create_by_url(feed_params[:url])
+    feed = Feed.find_or_create_by_url_and_user_id(feed_params[:url], current_user.id)
     if feed
       render :json => feed
     else
@@ -27,6 +27,6 @@ class Api::FeedsController < ApplicationController
   private
 
   def feed_params
-    params.require(:feed).permit(:title, :url)
+    params.require(:feed).permit(:url)
   end
 end
