@@ -377,3 +377,109 @@ Processing by Api::FeedsController#show as HTML
   [1m[35mFeed Load (1.5ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "1"]]
   [1m[36mEntry Load (32.5ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 1]]
 Completed 200 OK in 225ms (Views: 80.6ms | ActiveRecord: 39.5ms)
+DEPRECATION WARNING: You didn't set config.secret_key_base. Read the upgrade documentation to learn more about this new config option. (called from service at /usr/local/var/rbenv/versions/2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-09 10:17:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 148ms (Views: 147.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-09 10:17:44 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-09 10:17:44 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-07-09 10:17:44 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-07-09 10:17:44 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-07-09 10:17:44 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:17 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-09 10:22:26 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-09 10:22:26 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:26 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:26 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:26 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:26 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:26 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:27 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:27 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-07-09 10:22:27 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-09 10:22:40 -0400
+
+
+Started GET "/api/feeds/1" for 127.0.0.1 at 2015-07-09 10:23:53 -0400
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mFeed Load (1.2ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mEntry Load (18.5ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 1]]
+Completed 200 OK in 204ms (Views: 76.9ms | ActiveRecord: 26.1ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-07-09 10:26:25 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.6ms)[0m  SELECT "feeds".* FROM "feeds"
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.6ms)
