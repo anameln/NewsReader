@@ -1,12 +1,23 @@
 NewsReader.Routers.FeedsRouter = Backbone.Router.extend({
   routes: {
-    "": "index"
+    "": "index",
+    "feeds/:id": "show"
+  },
+
+  initialize: function () {
+    this.feeds = NewsReader.Collections.feeds;
   },
 
   index: function () {
-    var feeds = new NewsReader.Collections.Feeds();
-    feeds.fetch();
-    var index = new NewsReader.Views.Index({collection: feeds});
-    $("body").html(index.render().$el);
+    this.feeds.fetch();
+    var index = new NewsReader.Views.Index({collection: this.feeds});
+    $("#content").html(index.render().$el);
+  },
+
+  show: function (id) {
+    var feed = this.feeds.getOrFetch(id);
+    feed.fetch();
+    var show = new NewsReader.Views.Show({model: feed});
+    $("#content").html(show.render().$el);
   }
 });

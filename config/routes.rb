@@ -1,5 +1,5 @@
 NewsReader::Application.routes.draw do
-  namespace :api do
+  namespace :api, defaults: {format: :json} do
     resources :feeds, only: [:index, :create, :show] do
       resources :entries, only: [:index]
     end

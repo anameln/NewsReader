@@ -1,10 +1,12 @@
 class Api::FeedsController < ApplicationController
   def index
-    render :json => Feed.all
+    # render :json => Feed.all
+    @feeds = Feed.all
   end
 
   def show
-    render :json => Feed.find(params[:id]), include: :latest_entries
+    # render :json => Feed.find(params[:id]), include: :latest_entries
+    @feed = Feed.find(params[:id])
   end
 
   def create
@@ -15,7 +17,6 @@ class Api::FeedsController < ApplicationController
       render :json => { error: "invalid url" }, status: :unprocessable_entity
     end
   end
-
 
   private
 
