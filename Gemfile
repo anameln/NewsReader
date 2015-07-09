@@ -18,6 +18,7 @@ end
 
 group :development do
   gem 'better_errors'
+  gem 'byebug'
   gem 'binding_of_caller'
 end
 
