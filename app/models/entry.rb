@@ -1,4 +1,6 @@
 class Entry < ActiveRecord::Base
+  include Favoritable
+
   belongs_to :feed
 
   def self.create_from_json!(entryData, feed)

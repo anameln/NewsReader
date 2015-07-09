@@ -1,6 +1,8 @@
 require 'open-uri'
 
 class Feed < ActiveRecord::Base
+  include Favoritable
+
   has_many :entries, :dependent => :destroy
   validates :title, :url, presence: true
 

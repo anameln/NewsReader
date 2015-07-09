@@ -16974,3 +16974,12 @@ Processing by Api::FeedsController#show as JSON
 Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 2.9ms)
   [1m[36mFeed Load (0.6ms)[0m  [1mSELECT "feeds".* FROM "feeds" ORDER BY "feeds"."id" DESC LIMIT 1[0m
   [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateFavorites (20150709214722)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (23.1ms)[0m  [1mCREATE TABLE "favorites" ("id" serial primary key, "user_id" integer, "favoritable_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (32.5ms)[0m  CREATE INDEX "index_favorites_on_favoritable_id" ON "favorites" ("favoritable_id")
+  [1m[36m (1.0ms)[0m  [1mCREATE INDEX "index_favorites_on_user_id" ON "favorites" ("user_id")[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150709214722"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
