@@ -2,6 +2,7 @@ require 'open-uri'
 
 class Feed < ActiveRecord::Base
   has_many :entries, :dependent => :destroy
+  validates :title, :url, presence: true
 
   def self.find_or_create_by_url(url)
     feed = Feed.find_by_url(url)

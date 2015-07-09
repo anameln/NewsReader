@@ -13,5 +13,11 @@ NewsReader.Models.Feed = Backbone.Model.extend({
     }
 
     return response;
+  },
+
+  validate: function (attrs) {
+    if (attrs.url === "") {
+      return "The URL cannot be empty";
+    }
   }
 });

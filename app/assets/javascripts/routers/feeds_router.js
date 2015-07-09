@@ -1,6 +1,7 @@
 NewsReader.Routers.FeedsRouter = Backbone.Router.extend({
   routes: {
     "": "index",
+    "feeds/new": "new",
     "feeds/:id": "show"
   },
 
@@ -19,5 +20,10 @@ NewsReader.Routers.FeedsRouter = Backbone.Router.extend({
     feed.fetch();
     var show = new NewsReader.Views.Show({model: feed});
     $("#content").html(show.render().$el);
+  },
+
+  new: function () {
+    var newView = new NewsReader.Views.NewFeed();
+    $("#content").html(newView.render().$el);
   }
 });
