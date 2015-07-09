@@ -1,4 +1,4 @@
-NewsReader.Views.Show = Backbone.View.extend({
+NewsReader.Views.Show = Backbone.CompositeView.extend({
   template: JST["feeds/show"],
   events: {
     "click .refresh": "refresh"
@@ -11,12 +11,11 @@ NewsReader.Views.Show = Backbone.View.extend({
   render: function () {
     var content = this.template({ feed: this.model });
     this.$el.html(content);
-    var $ul = this.$("ul");
 
     this.model.entries().each(function (entry) {
       var entryView = new NewsReader.Views.ShowEntry({model: entry});
-      $ul.append(entryView.render().$el);
-    });
+      this.addSubview("ul", entryView);
+    }.bind(this));
 
     return this;
   },

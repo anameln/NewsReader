@@ -12589,3 +12589,359 @@ Processing by Api::FeedsController#index as JSON
   [1m[36mFeed Load (0.6ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
   Rendered api/feeds/index.json.jbuilder (2.8ms)
 Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-09 16:09:23 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 572ms (Views: 571.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/util/composite_view.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:23 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-09 16:09:23 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:23 -0400
+
+
+Started GET "/assets/jquery.serializejson.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:23 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:23 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:23 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/feeds/feed_item.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/feeds/new.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/entries/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/views/entries/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/views/feeds/feed_item.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/views/feeds/index.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/views/feeds/new.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/views/feeds/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-07-09 16:09:24 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (2.9ms)[0m  SELECT "feeds".* FROM "feeds"
+  Rendered api/feeds/index.json.jbuilder (7.0ms)
+Completed 200 OK in 92ms (Views: 88.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-09 16:09:40 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/jquery.serializejson.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/util/composite_view.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/entries/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/feeds/feed_item.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/feeds/new.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/views/entries/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/views/feeds/new.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/views/feeds/feed_item.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/views/feeds/index.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/views/feeds/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-07-09 16:09:41 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.4ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+  Rendered api/feeds/index.json.jbuilder (1.7ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/api/feeds/1" for 127.0.0.1 at 2015-07-09 16:09:43 -0400
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mFeed Load (0.7ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mSQL (27.7ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2015-07-09 20:09:43.297078' WHERE "feeds"."id" = 1[0m
+  [1m[35m (1.4ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (17.0ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472580"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:09:40+00:00\",\"link\":\"http://example.com/test/1436472580\",\"description\":\"Ut veniam minim tempor officia id eiusmod elit magna non.\",\"pubDate\":\"2015-07-09T16:09:40-04:00\",\"guid\":\"http://example.com/test/1436472580\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472580"], ["published_at", Thu, 09 Jul 2015 20:09:40 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:09:40+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472570"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:09:30+00:00\",\"link\":\"http://example.com/test/1436472570\",\"description\":\"Labore ea sint deserunt nisi ea nostrud velit ex cillum adipisicing sit do excepteur mollit.\",\"pubDate\":\"2015-07-09T16:09:30-04:00\",\"guid\":\"http://example.com/test/1436472570\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472570"], ["published_at", Thu, 09 Jul 2015 20:09:30 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:09:30+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472560"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:09:20+00:00\",\"link\":\"http://example.com/test/1436472560\",\"description\":\"Eu esse fugiat occaecat dolor nisi officia Lorem dolor.\",\"pubDate\":\"2015-07-09T16:09:20-04:00\",\"guid\":\"http://example.com/test/1436472560\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472560"], ["published_at", Thu, 09 Jul 2015 20:09:20 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:09:20+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472550"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:09:10+00:00\",\"link\":\"http://example.com/test/1436472550\",\"description\":\"Reprehenderit sunt mollit magna officia officia.\",\"pubDate\":\"2015-07-09T16:09:10-04:00\",\"guid\":\"http://example.com/test/1436472550\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472550"], ["published_at", Thu, 09 Jul 2015 20:09:10 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:09:10+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472540"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:09:00+00:00\",\"link\":\"http://example.com/test/1436472540\",\"description\":\"Deserunt duis qui laboris sit.\",\"pubDate\":\"2015-07-09T16:09:00-04:00\",\"guid\":\"http://example.com/test/1436472540\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472540"], ["published_at", Thu, 09 Jul 2015 20:09:00 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:09:00+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472530"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:08:50+00:00\",\"link\":\"http://example.com/test/1436472530\",\"description\":\"Officia id exercitation in cupidatat velit reprehenderit ullamco tempor commodo consectetur eiusmod.\",\"pubDate\":\"2015-07-09T16:08:50-04:00\",\"guid\":\"http://example.com/test/1436472530\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472530"], ["published_at", Thu, 09 Jul 2015 20:08:50 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:08:50+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472520"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:08:40+00:00\",\"link\":\"http://example.com/test/1436472520\",\"description\":\"Lorem enim aliquip aliquip aliqua.\",\"pubDate\":\"2015-07-09T16:08:40-04:00\",\"guid\":\"http://example.com/test/1436472520\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472520"], ["published_at", Thu, 09 Jul 2015 20:08:40 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:08:40+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472510"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:08:30+00:00\",\"link\":\"http://example.com/test/1436472510\",\"description\":\"Sit deserunt fugiat velit nostrud irure aute officia ut qui excepteur reprehenderit Lorem irure consectetur.\",\"pubDate\":\"2015-07-09T16:08:30-04:00\",\"guid\":\"http://example.com/test/1436472510\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472510"], ["published_at", Thu, 09 Jul 2015 20:08:30 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:08:30+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472500"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:08:20+00:00\",\"link\":\"http://example.com/test/1436472500\",\"description\":\"Amet pariatur veniam nulla velit in magna laboris commodo.\",\"pubDate\":\"2015-07-09T16:08:20-04:00\",\"guid\":\"http://example.com/test/1436472500\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472500"], ["published_at", Thu, 09 Jul 2015 20:08:20 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:08:20+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00], ["feed_id", 1], ["guid", "http://example.com/test/1436472490"], ["json", "{\"title\":\"Lorem ipsum 2015-07-09T20:08:10+00:00\",\"link\":\"http://example.com/test/1436472490\",\"description\":\"Elit ex adipisicing consequat commodo exercitation laboris magna.\",\"pubDate\":\"2015-07-09T16:08:10-04:00\",\"guid\":\"http://example.com/test/1436472490\",\"dc_creator\":\"John Smith\"}"], ["link", "http://example.com/test/1436472490"], ["published_at", Thu, 09 Jul 2015 20:08:10 UTC +00:00], ["title", "Lorem ipsum 2015-07-09T20:08:10+00:00"], ["updated_at", Thu, 09 Jul 2015 20:09:43 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mEntry Load (1.5ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 1]]
+  Rendered api/feeds/show.json.jbuilder (271.4ms)
+Completed 200 OK in 299ms (Views: 239.3ms | ActiveRecord: 58.5ms)
+
+
+Started GET "/api/feeds/1" for 127.0.0.1 at 2015-07-09 16:09:43 -0400
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mFeed Load (0.5ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mEntry Load (2.3ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 1]]
+  Rendered api/feeds/show.json.jbuilder (28.6ms)
+Completed 200 OK in 32ms (Views: 28.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-07-09 16:09:44 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[35mFeed Load (0.6ms)[0m  SELECT "feeds".* FROM "feeds"
+  Rendered api/feeds/index.json.jbuilder (2.2ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/util/composite_view.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/jquery.serializejson.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/news_reader.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/entries/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/feeds/index.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/feeds/feed_item.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/feeds/new.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/feeds/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/models/entry.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/collections/entries.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/collections/feeds.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/views/entries/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/views/feeds/feed_item.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/models/feed.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/views/feeds/index.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/views/feeds/new.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/views/feeds/show.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/routers/feeds_router.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+
+
+Started GET "/api/feeds" for 127.0.0.1 at 2015-07-09 16:11:45 -0400
+Processing by Api::FeedsController#index as JSON
+  [1m[36mFeed Load (0.5ms)[0m  [1mSELECT "feeds".* FROM "feeds"[0m
+  Rendered api/feeds/index.json.jbuilder (1.6ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/api/feeds/7" for 127.0.0.1 at 2015-07-09 16:11:47 -0400
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"7"}
+  [1m[35mFeed Load (0.5ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "feeds" SET "updated_at" = '2015-07-09 20:11:47.428450' WHERE "feeds"."id" = 7[0m
+  [1m[35m (0.7ms)[0m  SELECT "entries"."guid" FROM "entries"
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/pope-francis-mass-bolivian-burger-king/story?id=32336679"], ["json", "{\"title\":\"See Where Pope Francis Changed for Mass\",\"link\":\"http://abcnews.go.com/International/pope-francis-mass-bolivian-burger-king/story?id=32336679\",\"description\":\"Pope Francis changed in a burger King in Santa Cruz Bolivia.\",\"pubDate\":\"2015-07-09T15:51:23-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/pope-francis-mass-bolivian-burger-king/story?id=32336679\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/International/abc_pope_burger_king_02_jc_150709_4x3t_384.jpg\",\"media_thumbnail_height\":\"288\",\"media_thumbnail_width\":\"384\"}"], ["link", "http://abcnews.go.com/International/pope-francis-mass-bolivian-burger-king/story?id=32336679"], ["published_at", Thu, 09 Jul 2015 19:51:23 UTC +00:00], ["title", "See Where Pope Francis Changed for Mass"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/wireStory/wildfires-spread-western-canada-due-weather-32338922"], ["json", "{\"title\":\"Wildfires Could Spread in Western Canada Due to Weather\",\"link\":\"http://abcnews.go.com/International/wireStory/wildfires-spread-western-canada-due-weather-32338922\",\"description\":\"Officials say hot, dry weather could cause wildfires in western Canada to spread\",\"pubDate\":\"2015-07-09T15:57:43-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/wireStory/wildfires-spread-western-canada-due-weather-32338922\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/Site/abc_default_image_mn.jpg\",\"media_thumbnail_height\":\"240\",\"media_thumbnail_width\":\"320\"}"], ["link", "http://abcnews.go.com/International/wireStory/wildfires-spread-western-canada-due-weather-32338922"], ["published_at", Thu, 09 Jul 2015 19:57:43 UTC +00:00], ["title", "Wildfires Could Spread in Western Canada Due to Weather"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/wireStory/uk-government-tells-tourists-leave-tunisia-32332663"], ["json", "{\"title\":\"Britain Tells Tourists to Leave Tunisia Over Terror Risk\",\"link\":\"http://abcnews.go.com/International/wireStory/uk-government-tells-tourists-leave-tunisia-32332663\",\"description\":\"British government tells UK tourists to leave Tunisia because of terror risk\",\"pubDate\":\"2015-07-09T15:54:42-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/wireStory/uk-government-tells-tourists-leave-tunisia-32332663\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/Site/abc_default_image_mn.jpg\",\"media_thumbnail_height\":\"240\",\"media_thumbnail_width\":\"320\"}"], ["link", "http://abcnews.go.com/International/wireStory/uk-government-tells-tourists-leave-tunisia-32332663"], ["published_at", Thu, 09 Jul 2015 19:54:42 UTC +00:00], ["title", "Britain Tells Tourists to Leave Tunisia Over Terror Risk"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/wireStory/israeli-citizen-held-hamas-gaza-year-32319322"], ["json", "{\"title\":\"Amid Detente With Hamas, Israel Says 2 Citizens Held in Gaza\",\"link\":\"http://abcnews.go.com/International/wireStory/israeli-citizen-held-hamas-gaza-year-32319322\",\"description\":\"Amid fragile detente with Hamas, Israel says that 2 of its citizens are being held in Gaza\",\"pubDate\":\"2015-07-09T15:35:14-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/wireStory/israeli-citizen-held-hamas-gaza-year-32319322\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/International/WireAP_1953cda807524a1ca6ecb6673ad92f71_4x3t_384.jpg\",\"media_thumbnail_height\":\"288\",\"media_thumbnail_width\":\"384\"}"], ["link", "http://abcnews.go.com/International/wireStory/israeli-citizen-held-hamas-gaza-year-32319322"], ["published_at", Thu, 09 Jul 2015 19:35:14 UTC +00:00], ["title", "Amid Detente With Hamas, Israel Says 2 Citizens Held in Gaza"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/wireStory/thailand-sends-100-ethnic-uighurs-back-china-32319325"], ["json", "{\"title\":\"Thailand Condemned for Repatriation of 109 Uighurs to China\",\"link\":\"http://abcnews.go.com/International/wireStory/thailand-sends-100-ethnic-uighurs-back-china-32319325\",\"description\":\"Thailand condemned for deportation of 109 Uighurs to China; consulate in Turkey ransacked\",\"pubDate\":\"2015-07-09T15:34:13-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/wireStory/thailand-sends-100-ethnic-uighurs-back-china-32319325\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/International/WireAP_7f09f70c8dc545269cce979fad40ad6d_4x3t_384.jpg\",\"media_thumbnail_height\":\"288\",\"media_thumbnail_width\":\"384\"}"], ["link", "http://abcnews.go.com/International/wireStory/thailand-sends-100-ethnic-uighurs-back-china-32319325"], ["published_at", Thu, 09 Jul 2015 19:34:13 UTC +00:00], ["title", "Thailand Condemned for Repatriation of 109 Uighurs to China"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/wireStory/iraqi-officials-bombs-baghdad-iraqi-town-kill-people-32337578"], ["json", "{\"title\":\"Iraqi Officials: Bombs in Baghdad, Iraqi Town Kill 9 People\",\"link\":\"http://abcnews.go.com/International/wireStory/iraqi-officials-bombs-baghdad-iraqi-town-kill-people-32337578\",\"description\":\"Iraqi officials say bombings in Baghdad, town south of Iraqi capital  have killed 9 people\",\"pubDate\":\"2015-07-09T15:29:27-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/wireStory/iraqi-officials-bombs-baghdad-iraqi-town-kill-people-32337578\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/Site/abc_default_image_mn.jpg\",\"media_thumbnail_height\":\"240\",\"media_thumbnail_width\":\"320\"}"], ["link", "http://abcnews.go.com/International/wireStory/iraqi-officials-bombs-baghdad-iraqi-town-kill-people-32337578"], ["published_at", Thu, 09 Jul 2015 19:29:27 UTC +00:00], ["title", "Iraqi Officials: Bombs in Baghdad, Iraqi Town Kill 9 People"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/wireStory/greek-finance-chief-brings-needed-diplomatic-touch-32331960"], ["json", "{\"title\":\"New Greek Finance Chief Brings Much-Needed Diplomatic Touch\",\"link\":\"http://abcnews.go.com/International/wireStory/greek-finance-chief-brings-needed-diplomatic-touch-32331960\",\"description\":\"Tasked with closing bailout deal, new Greek finance chief brings much-needed diplomatic touch\",\"pubDate\":\"2015-07-09T15:24:16-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/wireStory/greek-finance-chief-brings-needed-diplomatic-touch-32331960\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/Site/abc_default_image_mn.jpg\",\"media_thumbnail_height\":\"240\",\"media_thumbnail_width\":\"320\"}"], ["link", "http://abcnews.go.com/International/wireStory/greek-finance-chief-brings-needed-diplomatic-touch-32331960"], ["published_at", Thu, 09 Jul 2015 19:24:16 UTC +00:00], ["title", "New Greek Finance Chief Brings Much-Needed Diplomatic Touch"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "entries" ("created_at", "feed_id", "guid", "json", "link", "published_at", "title", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["created_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00], ["feed_id", 7], ["guid", "http://abcnews.go.com/International/video/iran-nuclear-talks-extended-32335545"], ["json", "{\"title\":\"Watch:  Iran Nuclear Talks Extended Again\",\"link\":\"http://abcnews.go.com/International/video/iran-nuclear-talks-extended-32335545\",\"description\":\"Secretary of State John Kerry says tough issues are still on the table and negotiators will not be rushed\",\"pubDate\":\"2015-07-09T15:50:20-04:00\",\"category\":\"International\",\"guid\":\"http://abcnews.go.com/International/video/iran-nuclear-talks-extended-32335545\",\"media_thumbnail_url\":\"http://a.abcnews.com/images/International/150709_dvo_hotspot_4x3t_384.jpg\",\"media_thumbnail_height\":\"288\",\"media_thumbnail_width\":\"384\"}"], ["link", "http://abcnews.go.com/International/video/iran-nuclear-talks-extended-32335545"], ["published_at", Thu, 09 Jul 2015 19:50:20 UTC +00:00], ["title", "Watch:  Iran Nuclear Talks Extended Again"], ["updated_at", Thu, 09 Jul 2015 20:11:57 UTC +00:00]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mEntry Load (0.9ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 7]]
+  Rendered api/feeds/show.json.jbuilder (10484.4ms)
+Completed 200 OK in 10489ms (Views: 10475.4ms | ActiveRecord: 12.4ms)
+
+
+Started GET "/api/feeds/7" for 127.0.0.1 at 2015-07-09 16:11:57 -0400
+Processing by Api::FeedsController#show as JSON
+  Parameters: {"id"=>"7"}
+  [1m[35mFeed Load (0.4ms)[0m  SELECT "feeds".* FROM "feeds" WHERE "feeds"."id" = $1 LIMIT 1  [["id", "7"]]
+  [1m[36mEntry Load (1.1ms)[0m  [1mSELECT "entries".* FROM "entries" WHERE "entries"."feed_id" = $1[0m  [["feed_id", 7]]
+  Rendered api/feeds/show.json.jbuilder (12.7ms)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 1.5ms)
