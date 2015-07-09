@@ -1,5 +1,8 @@
 NewsReader.Views.Show = Backbone.View.extend({
   template: JST["feeds/show"],
+  events: {
+    "click .refresh": "refresh"
+  },
 
   initialize: function () {
     this.listenTo(this.model, "sync", this.render);
@@ -10,5 +13,9 @@ NewsReader.Views.Show = Backbone.View.extend({
     this.$el.html(content);
 
     return this;
+  },
+
+  refresh: function () {
+    this.model.fetch();
   }
 })
