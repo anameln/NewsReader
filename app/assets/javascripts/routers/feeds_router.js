@@ -7,23 +7,30 @@ NewsReader.Routers.FeedsRouter = Backbone.Router.extend({
 
   initialize: function () {
     this.feeds = NewsReader.Collections.feeds;
+    this.$rootEl = $("#content");
   },
 
   index: function () {
     this.feeds.fetch();
     var index = new NewsReader.Views.Index({collection: this.feeds});
-    $("#content").html(index.render().$el);
+    this._swapView(index);
   },
 
   show: function (id) {
     var feed = this.feeds.getOrFetch(id);
     feed.fetch();
     var show = new NewsReader.Views.Show({model: feed});
-    $("#content").html(show.render().$el);
+    this._swapView(show);
   },
 
   new: function () {
     var newView = new NewsReader.Views.NewFeed();
-    $("#content").html(newView.render().$el);
+    this._swapView(newView);
+  },
+
+  _swapView: function (newView) {
+    this._currentView && this._currentView.remove();
+    this._currentView = newView;
+    this.$rootEl.html(newView.render().$el);
   }
 });
